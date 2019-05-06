@@ -12,7 +12,7 @@
  )
   
  func hello(w http.ResponseWriter, r *http.Request) {
-     io.WriteString(w, "Hello remote world!")
+     io.WriteString(w, "Hello cloud environments from Go!")
  }
   
  func main() {
